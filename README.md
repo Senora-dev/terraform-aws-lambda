@@ -16,7 +16,7 @@ This Terraform module creates and manages AWS Lambda functions with configurable
 
 ```hcl
 module "lambda" {
-  source = "path/to/terraform-aws-lambda"
+  source = "Senora-dev/lambda/aws"
 
   function_name = "my-function"
   handler       = "index.handler"
